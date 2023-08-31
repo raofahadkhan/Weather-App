@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-export default function page() {
+export default function Home() {
   const [weatherData, setWeatherData] = useState<any>();
   const [city, setCity] = useState("");
   const url = `https://api.weatherapi.com/v1/current.json?key=25175e31b7074cfc895204529222906&q=${city}`;
